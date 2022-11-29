@@ -7,7 +7,7 @@ plugins {
 
 group 'com.volmit'
 application {
-    mainClass = 'com.volmit.demobot.Demo'
+    mainClass = 'com.volmit.modbot.ModBot'
 }
 
 
@@ -30,8 +30,8 @@ dependencies {
 
 
     //My things
-    implementation 'org.slf4j:slf4j-api:2.0.3'
-    implementation 'org.slf4j:slf4j-simple:2.0.3'
+    implementation 'org.slf4j:slf4j-api:2.0.4'
+    implementation 'org.slf4j:slf4j-simple:2.0.4'
     implementation 'org.jsoup:jsoup:1.15.3'
     implementation 'redis.clients:jedis:4.3.1'
     implementation 'commons-io:commons-io:2.11.0'
