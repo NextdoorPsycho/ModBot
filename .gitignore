@@ -1,0 +1,10 @@
+
+Data/
+
+.gradle/buildOutputCleanup/
+
+.idea/
+
+.gradle/
+
+build/
