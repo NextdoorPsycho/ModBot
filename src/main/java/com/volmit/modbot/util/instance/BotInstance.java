@@ -5,7 +5,7 @@ import com.jagrosh.jdautilities.command.CommandClientBuilder;
 import com.volmit.modbot.util.Core;
 import com.volmit.modbot.ModBot;
 import com.volmit.modbot.adapters.slash.old.PingCommand;
-import com.volmit.modbot.adapters.slash.project.ProjectList;
+import com.volmit.modbot.adapters.slash.ProjectList;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.OnlineStatus;
@@ -29,7 +29,6 @@ public class BotInstance {
         }
         CommandClientBuilder builder = new CommandClientBuilder();// [DONT TOUCH]
         // Slash Commands Below:
-        builder.addSlashCommand(new PingCommand());
         builder.addSlashCommand(new ProjectList());
 //        builder.addSlashCommand(new TicketMaster()); // VolmBot COmmands
 //        builder.addSlashCommand(new LogCommand());
